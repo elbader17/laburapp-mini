@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "usuario_laburapps",
+  "info": {
+    "name": "usuario_laburapp"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "NombreUsuario": {
+      "type": "string"
+    },
+    "password": {
+      "type": "string"
+    },
+    "NombrePersona": {
+      "type": "string"
+    },
+    "ApellidoPersona": {
+      "type": "string"
+    },
+    "MailUsuario": {
+      "type": "string"
+    },
+    "TipoUsuarioId": {
+      "type": "integer"
+    },
+    "DocumentoPersona": {
+      "type": "biginteger"
+    },
+    "FecNacPersona": {
+      "type": "date"
+    },
+    "direccion": {
+      "type": "text"
+    },
+    "ciudad": {
+      "type": "string"
+    },
+    "provincia": {
+      "type": "string"
+    },
+    "codigoPostal": {
+      "type": "integer"
+    },
+    "profecion": {
+      "type": "string"
+    }
+  }
+}
